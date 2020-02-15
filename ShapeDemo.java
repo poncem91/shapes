@@ -9,9 +9,6 @@ public class ShapeDemo {
         Shape myRectangle = new Rectangle(3.5, 4, "periwinkle");
         System.out.println(myRectangle);
 
-        // Fail: not true that a rectangle "is a" square.
-        // Square myRectangleSquare = new Rectangle("silver");
-
         // uses the parent setColor() method to change the rectangle's color
         myRectangle.setColor("blue");
         System.out.println(myRectangle);
